@@ -41,12 +41,12 @@ export default function App() {
             <View style={styles.repositoryContainer}>
               <Text style={styles.repository}>{repository.title}</Text>
               <View style={styles.techsContainer}>
-                {/* {repository.techs &&
+                {repository.techs &&
                   repository.techs.map((tech) => (
                     <Text key={tech} style={styles.tech}>
                       {tech}
                     </Text>
-                  ))} */}
+                  ))}
               </View>
               <View style={styles.likesContainer}>
                 <Text
